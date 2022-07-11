@@ -1,6 +1,6 @@
 # Docker
 
-##commands to create image for Dockerfile which contain html files for personal blog.
+## commands to create image for Dockerfile which contain html files for personal blog.
 
 docker build --tag centos_apache:v1 .
 docker images
