@@ -23,7 +23,6 @@ docker ps
 docker ps --no-trunc
 ```
 ![image](https://user-images.githubusercontent.com/9786713/178357367-5d2fa570-4321-4ede-9012-6f7c79ff812f.png)
-
 ### 3. Commands to go inside to the container and see the logs.
 
 ```bash
@@ -52,3 +51,11 @@ docker run -d -ti -p 9091:80 --name apache11 apache_with_code:v11
 docker ps
 docker logs -f apache11
 ```
+
+### 6. Context is the directory where are located all the files or the dependencies defined on the Dockerfile. So we can modified the previus command as following command.
+```bash
+docker build -t apache_with_code:v11 -f docker-images/Dockerfile3 --build-arg user=alex --build-arg httpd_package=httpd docker-images/
+```
+and if you see the message "Sending build context to Docker daemon x.xx MB" the value x.xx MB will match with the size of the directory docker-images
+![image](https://user-images.githubusercontent.com/9786713/178852167-2a5677c1-4136-4c5f-ac8e-b52bc2b31322.png)
+![image](https://user-images.githubusercontent.com/9786713/178852057-1dee2b63-32d8-4fef-8982-266b8518a313.png)
