@@ -62,6 +62,7 @@ and if you see the message "Sending build context to Docker daemon x.xx MB" the 
 ![image](https://user-images.githubusercontent.com/9786713/178852057-1dee2b63-32d8-4fef-8982-266b8518a313.png)
 
 the context file should be as small as possible. So If we need to ignore some folder or files we just have to create the file .dockerignore with the list of files or folders that we want to ignore. Docker automatically will read that file and ignore all the content inside that file.
+![image](https://user-images.githubusercontent.com/9786713/179102525-87fba4c2-85a6-4a61-b851-5a82e04b10d5.png)
 
 ![image](https://user-images.githubusercontent.com/9786713/179101266-334c7ba2-8da1-42a6-8b0f-01390c8489d2.png)
 
