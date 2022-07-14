@@ -58,4 +58,10 @@ docker build -t apache_with_code:v11 -f docker-images/Dockerfile3 --build-arg us
 ```
 and if you see the message "Sending build context to Docker daemon x.xx MB" the value x.xx MB will match with the size of the directory docker-images
 ![image](https://user-images.githubusercontent.com/9786713/178852167-2a5677c1-4136-4c5f-ac8e-b52bc2b31322.png)
+
 ![image](https://user-images.githubusercontent.com/9786713/178852057-1dee2b63-32d8-4fef-8982-266b8518a313.png)
+
+the context file should be as small as possible. So If we need to ignore some folder or files we just have to create the file .dockerignore with the list of files or folders that we want to ignore. Docker automatically will read that file and ignore all the content inside that file.
+
+<img width="315" alt="Screen Shot 2022-07-13 at 10 43 52 PM" src="https://user-images.githubusercontent.com/9786713/178893483-8dc336c5-f1e1-46eb-b9a6-030b9b49c28a.png">
+<img width="1278" alt="Screen Shot 2022-07-13 at 10 44 32 PM" src="https://user-images.githubusercontent.com/9786713/178893549-c2d54857-603c-46f9-8ea5-555621c5cbad.png">
