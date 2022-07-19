@@ -68,3 +68,12 @@ the context file should be as small as possible. So If we need to ignore some fo
 ![image](https://user-images.githubusercontent.com/9786713/179101266-334c7ba2-8da1-42a6-8b0f-01390c8489d2.png)
 
 ![image](https://user-images.githubusercontent.com/9786713/179101325-aee56b4f-a089-4864-8cb2-47ebebae92f9.png)
+
+### 7. Commands to create image for Dockerfile4.
+Try to have less layers as much as possible
+```bash
+docker build -t test:v2 -f Dockerfile4 .
+docker run -d -p 9090:80 test:v2
+```
+
+<img width="637" alt="Screen Shot 2022-07-18 at 10 03 50 PM" src="https://user-images.githubusercontent.com/9786713/179655463-ad98832c-c6b6-4d9a-b494-440e57f20423.png">
