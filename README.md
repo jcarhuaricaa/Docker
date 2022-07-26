@@ -77,3 +77,23 @@ docker run -d -p 9090:80 test:v2
 ```
 
 <img width="637" alt="Screen Shot 2022-07-18 at 10 03 50 PM" src="https://user-images.githubusercontent.com/9786713/179655463-ad98832c-c6b6-4d9a-b494-440e57f20423.png">
+
+### 8. Going to ssl folder and create the image for Dockerfile.
+
+First, the ssl certificate need to be created with the following command:
+resource (https://major.io/2007/08/02/generate-self-signed-certificate-and-key-in-one-line/)
+
+```bash
+openssl req -new -newkey rsa:2048 -days 365 -nodes -x509 -keyout docker.key -out docker.crt
+```
+
+Now we need to tell apache use the certificates created before.
+resource (https://www.techrepublic.com/article/how-to-enable-https-on-apache-centos/
+https://cwiki.apache.org/confluence/display/HTTPD/NameBasedSSLVHosts)
+
+according to the resource we need to install openssl and add the some lines in the ssl.conf file.
+
+```bash
+docker build -t apache_ssl:v3 .
+docker run -d -p 443:443 --name apache_ssl apache_ssl:v3
+```
