@@ -110,3 +110,9 @@ docker rmi $(docker images -f dangling=true -q)
 ```
 
 <img width="893" alt="Screen Shot 2022-07-25 at 10 36 01 PM" src="https://user-images.githubusercontent.com/9786713/180917611-60b01319-7ab8-4065-99d5-dce016eeb534.png">
+
+### 8. Installing Nginx and PHP 7 on centos 7
+
+resource (https://www.cyberciti.biz/faq/how-to-install-and-use-nginx-on-centos-7-rhel-7/)
+
+We are going to create the nginx.repo file with the content on the link before.
