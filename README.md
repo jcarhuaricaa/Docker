@@ -97,3 +97,16 @@ according to the resource we need to install openssl and add the some lines in t
 docker build -t apache_ssl:v3 .
 docker run -d -p 443:443 --name apache_ssl apache_ssl:v3
 ```
+
+### 8. Dangling image.
+In order to avoid dangling image being created it's importan to use tags with the name of our images when we created a new version.
+
+<img width="893" alt="image" src="https://user-images.githubusercontent.com/9786713/180916789-181497c0-e0c1-40a3-baa0-390caf36f760.png">
+
+Now to delete all dangling images in one command execute the following command:
+
+```bash
+docker rmi $(docker images -f dangling=true -q)
+```
+
+<img width="893" alt="Screen Shot 2022-07-25 at 10 36 01 PM" src="https://user-images.githubusercontent.com/9786713/180917611-60b01319-7ab8-4065-99d5-dce016eeb534.png">
