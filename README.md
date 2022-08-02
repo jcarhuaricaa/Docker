@@ -113,6 +113,9 @@ docker rmi $(docker images -f dangling=true -q)
 
 ### 8. Installing Nginx and PHP 7 on centos 7
 
-resource (https://www.cyberciti.biz/faq/how-to-install-and-use-nginx-on-centos-7-rhel-7/)
+resource (https://www.cyberciti.biz/faq/how-to-install-and-use-nginx-on-centos-7-rhel-7/, https://ius.io/setup)
 
-We are going to create the nginx.repo file with the content on the link before.
+We are going to create the nginx.repo file with the content on the link before. Also we are going to install the ius repository in order to install the php7 package.
+
+Now we need to setup the nginx for php to work. So, we are going to create the nginx.conf using the following template:
+resource (https://gist.github.com/lukearmstrong/7155390)
