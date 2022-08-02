@@ -119,3 +119,9 @@ We are going to create the nginx.repo file with the content on the link before. 
 
 Now we need to setup the nginx for php to work. So, we are going to create the nginx.conf using the following template:
 resource (https://gist.github.com/lukearmstrong/7155390)
+
+Now we create start.sh file just to start the php process on background and the nginx on foreground. Then we want to create a simple test.php file just to validate php works. If we create and image and container, It will fail because of the line 17 on the  nginx.conf file. For that we will fix that by changing that line according the following resource.
+
+https://serversforhackers.com/c/php-fpm-configuration-the-listen-directive
+
+Finally we are going to rebuild the image and create the new container and it works as expected.
