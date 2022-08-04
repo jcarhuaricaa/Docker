@@ -131,3 +131,8 @@ Finally we are going to rebuild the image and create the new container and it wo
 For this example the last FROM is which persist on the size of the image.
 
 <img width="893" alt="image" src="https://user-images.githubusercontent.com/9786713/182756808-d619995c-7e6b-4423-a334-99b0106d9a57.png">
+
+creating the image for Dockerfile-multistage, this is a similar example but with a real use case:
+<img width="893" alt="image" src="https://user-images.githubusercontent.com/9786713/182763658-b840c58f-2495-4ed2-a5dc-14529812424a.png">
+
+<img width="893" alt="Screen Shot 2022-08-03 at 11 38 43 PM" src="https://user-images.githubusercontent.com/9786713/182764398-bb1d6035-c893-428f-ad53-1db26c6252b6.png">
