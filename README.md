@@ -152,3 +152,6 @@ resource: (https://github.com/jenkins-docs/simple-java-maven-app)
 <img width="893" alt="Screen Shot 2022-08-15 at 11 55 50 PM" src="https://user-images.githubusercontent.com/9786713/184800854-d2894104-0d29-433b-8c57-313399e07e66.png">
 
 <img width="893" alt="Screen Shot 2022-08-15 at 11 58 15 PM" src="https://user-images.githubusercontent.com/9786713/184801116-064cb965-6ffa-4174-b0e9-79cbf6e54911.png">
+
+<img width="893" alt="Screen Shot 2022-08-16 at 12 15 20 AM" src="https://user-images.githubusercontent.com/9786713/184802974-e6409ff8-f69f-4a8f-b9d5-cfbfa0836218.png">
+
