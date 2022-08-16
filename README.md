@@ -138,3 +138,17 @@ resource: (https://github.com/jenkins-docs/simple-java-maven-app)
 <img width="893" alt="image" src="https://user-images.githubusercontent.com/9786713/182763658-b840c58f-2495-4ed2-a5dc-14529812424a.png">
 
 <img width="893" alt="Screen Shot 2022-08-03 at 11 38 43 PM" src="https://user-images.githubusercontent.com/9786713/182764398-bb1d6035-c893-428f-ad53-1db26c6252b6.png">
+
+### 12. Commands for containers (rename,start,stop)
+
+<img width="893" alt="Screen Shot 2022-08-15 at 11 02 56 PM" src="https://user-images.githubusercontent.com/9786713/184795384-94c9a420-b0c1-49fb-82ac-f582ed65d4f9.png">
+
+<img width="893" alt="image" src="https://user-images.githubusercontent.com/9786713/184795731-3109529b-c167-4321-a577-07f9e3d717cc.png">
+
+<img width="893" alt="Screen Shot 2022-08-15 at 11 48 32 PM" src="https://user-images.githubusercontent.com/9786713/184800014-5e711888-6387-4c37-a36d-5e0159ff9587.png">
+
+<img width="1454" alt="Screen Shot 2022-08-15 at 11 51 01 PM" src="https://user-images.githubusercontent.com/9786713/184800287-e65f1651-81e4-4dee-b032-58ed3f9bfdc1.png">
+
+<img width="893" alt="Screen Shot 2022-08-15 at 11 55 50 PM" src="https://user-images.githubusercontent.com/9786713/184800854-d2894104-0d29-433b-8c57-313399e07e66.png">
+
+<img width="893" alt="Screen Shot 2022-08-15 at 11 58 15 PM" src="https://user-images.githubusercontent.com/9786713/184801116-064cb965-6ffa-4174-b0e9-79cbf6e54911.png">
